@@ -132,13 +132,13 @@ namespace UnityPerformanceBenchmarkReporter
                     throw new Exception("Performance test run had multiple hardware and player settings, there should only be one.");
                 }
 
-                var json = matches.Groups[1].Value;
-                if (string.IsNullOrEmpty(json))
+                // var json = matches.Groups[1].Value;
+                if (string.IsNullOrEmpty(matches.Groups[1].Value))
                 {
                     throw new Exception("Performance test run has incomplete hardware and player settings.");
                 }
 
-                var result = TryDeserializePerformanceTestRunJsonObject(json);
+                var result = TryDeserializePerformanceTestRunJsonObject(matches.Groups[1].Value);
 
                 var run = new PerformanceTestRun()
                 {

@@ -21,10 +21,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Report\Chart.bundle.js" />
     <EmbeddedResource Include="Report\styles.css" />
-    <EmbeddedResource Include="Report\UnityLogo.png" />
-    <EmbeddedResource Include="Report\warning.png" />
-    <EmbeddedResource Include="Report\help.png" />
-    <EmbeddedResource Include="Report\help-hover.png" />
+    <EmbeddedResource Include="Report\logo.png" />
   </ItemGroup>
 
 </Project>

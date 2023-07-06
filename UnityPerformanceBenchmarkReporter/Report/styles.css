@@ -63,13 +63,13 @@ th {
 
 .logocell {
     padding: 10px;
-    background-color: black;
+    background-color: #4e18ba;
 }
 
 .logo {
     width: 30%;
     vertical-align: bottom;
-    max-width: 400px;
+    max-width: 120px;
 }
 
 .warning {
@@ -81,7 +81,7 @@ th {
 
 .titlecell {
     padding-left: 10px;
-    background-color: black;
+    background-color: #4e18ba;
 }
 
 .title {

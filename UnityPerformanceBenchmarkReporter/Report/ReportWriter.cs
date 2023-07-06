@@ -527,7 +527,7 @@ namespace UnityPerformanceBenchmarkReporter.Report
 	        var logoBase64 = GetEmbeddedResourceImageBase64(GetFullResourceName("logo.png"));
             rw.WriteLine("<table class=\"titletable\">");
             rw.WriteLine(
-                $"<tr><td class=\"logocell\"><img src=\"data:image/png;base64,{logoBase64}\" alt=\"Unity\" class=\"logo\"></td></tr>");
+                $"<tr><td class=\"logocell\"><img src=\"data:image/png;base64,{logoBase64}\" alt=\"Tangull\" class=\"logo\"></td></tr>");
             rw.WriteLine(
                 "<tr><td class=\"titlecell\"><div class=\"title\"><h1>Performance Benchmark Report</h1></div></td></tr>");
             rw.WriteLine("</table>");

@@ -129,7 +129,7 @@ namespace UnityPerformanceBenchmarkReporter
                 .Any(tr => tr.State == (int)TestState.Failure);
             if (failedTestsExist)
             {
-                WriteLine("FAILURE: One ore more performance test metric aggregations is out of threshold from the baseline value. REGRESSIONS!");
+                WriteLine("FAILURE: One or more performance test metric aggregations is out of threshold from the baseline value. REGRESSIONS!");
                 WriteLine("-------------------------------------");
                 WriteLine(" Performance tests with failed metrics");
                 WriteLine("-------------------------------------");
@@ -183,7 +183,7 @@ namespace UnityPerformanceBenchmarkReporter
                                 if (!loggedHeader)
                                 {
                                     loggedHeader = true;
-                                    WriteLine("Info: One ore more performance test metric aggregations is out of threshold from the baseline value. KNOWN REGRESSIONS!");
+                                    WriteLine("Info: One or more performance test metric aggregations is out of threshold from the baseline value. KNOWN REGRESSIONS!");
                                     WriteLine("-------------------------------------");
                                     WriteLine(" Performance tests with Known Regressions metrics");
                                     WriteLine("-------------------------------------");
@@ -234,7 +234,7 @@ namespace UnityPerformanceBenchmarkReporter
                                 if (!loggedHeader)
                                 {
                                     loggedHeader = true;
-                                    WriteLine("Info: One ore more performance test metric aggregations is out of threshold from the baseline value. PROGRESSIONS!");
+                                    WriteLine("Info: One or more performance test metric aggregations is out of threshold from the baseline value. PROGRESSIONS!");
                                     WriteLine("-------------------------------------");
                                     WriteLine(" Performance tests with Progressed metrics");
                                     WriteLine("-------------------------------------");
